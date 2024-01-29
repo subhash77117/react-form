@@ -1,38 +1,90 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-containe{
+  width: 100%;
+  height: 100vw;
+  background: gray;
+}
+.heading{
   text-align: center;
+  text-decoration: underline;
+  color: coral;
+  font-weight: 400;
+  text-transform: uppercase;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.from-contianer{
+  width: 600px;
+  height: auto;
+  background-color: rgba(80, 118, 156, 0.948);
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 0.4rem;
+}
+.inputType{
+  width: 100%;
+  height: 35px;
+  border-radius: 0.5rem;
+  border: none;
+}
+.inputType:hover{
+  outline: 4px;
+}
+.inputType::placeholder{
+  font-size: 0.9rem;
+  /* text-align: center; */
+}
+.from-contianer p{
+  font-size: 1.1rem;
+  color: wheat;
+  font-weight: 500;
+}
+select{
+  width: 100%;
+  height: 35px;
+  border-radius: 1rem;
+}
+#emid{
+  width: 70px;
+  height: 20px;
+}
+#comment{
+  width: 70px;
+  height: 20px;
+}
+#offer{
+  width: 70px;
+  height: 20px;
+}
+button{
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(42, 42, 194);
+  margin-top: 2rem;
   color: white;
+  transition: all 0.3s;
+  font-size: 1rem;
 }
-
-.App-link {
-  color: #61dafb;
+button:hover{
+  background-color: rgb(103, 103, 211);
+  color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#pushNotifaictionss{
+  width: 70px;
+  height: 20px;
+}
+#pushEmail{
+  width: 70px;
+  height: 20px;
+}
+#NopushEmail{
+  width: 70px;
+  height: 20px;
 }
